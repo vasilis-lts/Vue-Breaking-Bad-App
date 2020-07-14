@@ -1,0 +1,42 @@
+{
+  "extends": "tslint:recommended",
+  "rules": {
+    "no-inferrable-types": false,
+    "array-type": false,
+    "interface-name": [
+      true,
+      "never-prefix"
+    ],
+    "no-console": false,
+    "only-arrow-functions": false,
+    "no-string-literal": false,
+    "arrow-parens": [
+      true,
+      "ban-single-arg-parens"
+    ],
+    "ordered-imports": [
+      false
+    ],
+    "object-literal-sort-keys": [
+      false
+    ],
+    "member-access": false,
+    "variable-name": [
+      true,
+      "allow-leading-underscore",
+      "allow-snake-case"
+    ],
+    "trailing-comma": [
+      true,
+      {
+        "singleline": "never",
+        "multiline": {
+          "objects": "ignore",
+          "arrays": "ignore",
+          "functions": "never",
+          "typeLiterals": "ignore"
+        }
+      }
+    ]
+  }
+}
