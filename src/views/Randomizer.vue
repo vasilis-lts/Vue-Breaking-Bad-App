@@ -1,7 +1,7 @@
 <template>
   <div class="randomizer">
     <h3>Breaking bad quote randomizer!</h3>
-    <h1 class="quote">{{quote}}</h1>
+    <h2 class="quote">{{quote}}</h2>
     <div v-if="quote">
       <button @click="getRandomQuote()">Get another one!</button>
     </div>

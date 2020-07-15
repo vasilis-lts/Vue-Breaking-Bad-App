@@ -1,9 +1,6 @@
 <template>
   <div id="categories">
-    <h1>
-      No specs for this page
-      <br />but here are all the categories from the API
-    </h1>
+    <h1>Other API categories</h1>
     <div class="categories flex-col">
       <div class="category-item flex">
         <div class="category-link">
@@ -57,6 +54,9 @@ export default class Categories extends Vue {
 </script>
 
 <style scoped lang="scss">
+#categories {
+  padding-top: 50px;
+}
 .categories {
   border: 1px solid #ccc;
   max-width: 650px;

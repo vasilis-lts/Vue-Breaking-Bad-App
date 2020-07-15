@@ -1,3 +1,3 @@
 # breaking-bad-api
 
-For the lols. Vue is ok
+For learning. Vue is ok

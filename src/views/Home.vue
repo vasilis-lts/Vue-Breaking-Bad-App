@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1>List of characters</h1>
+    <h1>The Characters</h1>
     <div class="flex jcc">
       <span>Sort by:&nbsp;</span>
       <a

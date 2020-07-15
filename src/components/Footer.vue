@@ -13,10 +13,8 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
-import router from "@/router";
+import { Vue } from "vue-property-decorator";
 
-@Component
 export default class Footer extends Vue {
   //
 }

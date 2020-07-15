@@ -89,7 +89,7 @@ $headerHeight: 55px;
 
 #view-area {
   margin-top: $headerHeight;
-  padding: 15px 0;
+  padding-top: 50px;
   min-height: calc(100% - #{$headerHeight} * 2);
 }
 #footer {
